@@ -86,7 +86,7 @@ public class GigawattBillingSystem extends JFrame {
 		contentPane.add(lblLightIsThe);
 		
 		JLabel jlabel_logo = new JLabel("");
-		Image images = new ImageIcon(this.getClass().getResource("icon.png")).getImage();
+		Image images = new ImageIcon(this.getClass().getResource("/icon.png")).getImage();
 		jlabel_logo.setIcon(new ImageIcon(images));
 		jlabel_logo.setBounds(535, 25, 115, 147);
 		contentPane.add(jlabel_logo);
